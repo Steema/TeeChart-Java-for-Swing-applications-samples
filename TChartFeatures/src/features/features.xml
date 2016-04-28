@@ -152,8 +152,8 @@
                     </group>
                     <feature caption="Error" classpath="style.error.ErrorDemo"/>
                     <feature caption="Error Bar" classpath="style.errorbar.NegativeDemo"/>
-                    <feature caption="Funnel (Pipeline)" classpath="style.funnel.FunnelDemo" issues="drawing of yellow part after clicked"/>
                     <feature caption="HighLow" classpath="style.highlow.HighLowDemo"/>
+                    <feature caption="Funnel (Pipeline)" classpath="style.funnel.FunnelDemo"/>
                     <group caption="Histogram" classpath="style.histogram.HistogramDemo">
                         <feature caption="Histogram Transparency" classpath="style.histogram.TransparencyDemo" issues="Smalldot grid; brush transparency"/>
                     </group>
@@ -234,6 +234,9 @@
                 </group>
                 <group caption="Native binary format">
                     <feature caption="Templates" classpath="exports.TemplateDemo" issues="" todo="how to avoid copying data?"/>
+                </group>
+                <group caption="Other TeeChart versions">
+                    <feature caption="TeeChart Javascript / HTML5" classpath="exports.JScriptExportDemo" issues="" todo="how to avoid copying data?"/>
                 </group>
             </group>
             <group caption="Functions">
@@ -336,6 +339,7 @@
                 <feature caption="ScrollPager" classpath="tool.ScrollPagerDemo"/>
                 <feature caption="Series Animation" classpath="tool.SeriesAnimationDemo"/>
                 <feature caption="Series Band" classpath="tool.SeriesBandDemo"/>
+                <feature caption="Series Region" classpath="tool.SeriesRegionDemo"/>
             </group>
             <group caption="Themes">
                 <feature caption="Chart Themes" classpath="theme.ThemesDemo" />
